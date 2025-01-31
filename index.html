@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Natures platter</title>
+    <link rel="shortcut icon" href="assets/logo-header.png" type="image/x-icon">
     <!-- font-awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- tailwind and daisy ui  cdn --> 
@@ -104,16 +105,16 @@
             <h1 class="text-3xl text-[#179800] font-semibold text-center md:text-start">Popular Products</h1>
             <br>
             <!-- full 2card -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 ">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-5 ">
                 <div class=" p-5  bg-no-repeat bg-right-bottom rounded-xl  col-span-1 " style="background-image: url(assets/vegetable-offer.png), linear-gradient(140deg,#4be52f, white); ">
-                  <h1 class="text-5xl  text-white font-bold mt-10">50% Off</h1>
+                  <h1 class="text-5xl  text-white font-bold mt-5">50% Off</h1>
                   <p class="text-xl font-light my-5 w-3/5">Discover a world of treats, toys and essentials handpicked for</p>
                   <button class="btn px-6">Buy Now</button>
                  
                   
                 </div>
                 <!-- grid card -->
-                <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-3 col-span-2">
                    <div class=" flex bg-white items-center justify-center  rounded-xl p-2">
                     <figure>
                          <img class="w-3/4"  src="assets/Group 16.png" alt="">
@@ -211,9 +212,28 @@
      <!-- arrival offers section -->
      <main class="my-20 mx-3">
         <div class="container mx-auto">
-            <h1 class="text-3xl text-[#179800]">Arrival & Offers</h1>
-            <div>
-                
+            <h1 class="text-3xl text-[#179800] my-10">Arrival & Offers</h1>
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-3">
+                <div class="col-span-3  rounded-xl bg-[#115414]">
+                    <div class="grid grid-cols-2 py-7">
+                    <div class="my-auto text-white ms-5 ">
+                    <img src="assets/dawat-logo.png" alt="">
+                    <h3 class="text-xl  p-5 my-7 rounded-xl bg-[#63B76D] w-4/5">Cook Exotic Dishes</h3>
+                    <h1 class="text-4xl ">UP to <span class="font-bold">20% OFF</span></h1> 
+                    </div>
+                    <img class="mt-5" src="assets/dawat-mock-up.png" alt=""> 
+                    </div>
+                </div>
+                <div class="col-span-2  rounded-xl bg-[#102861]">
+                <div class="grid grid-cols-2  gap-2 py-7">
+                    <div class="my-auto text-white ms-5">
+                        <img src="assets/india-gate-logo.png" alt="">
+                        <h3 class="text-lg  p-5 my-7 rounded-xl bg-[#2A4D97]">Cook Exotic Dishes</h3>
+                        <h1 class="text-2xl ">UP to <span class="font-bold">20% OFF</span></h1> 
+                        </div>
+                        <img class=" w-4/5" src="assets/india-gate-mock-up.png" alt="">    
+                </div>                 
+                </div>
             </div>
         </div>
      </main>
